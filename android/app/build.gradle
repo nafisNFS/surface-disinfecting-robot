@@ -1,0 +1,72 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+android {
+    namespace "com.example.bluetooth_car"
+    compileSdk 34 // Set to 33 for Android 13 support, or use flutter.compileSdkVersion if managed by Flutter
+
+    ndkVersion flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId "com.example.bluetooth_car"
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion 34 // Set to 33 for Android 13 support, or use flutter.targetSdkVersion if managed by Flutter
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+
+        // Adding support for Bluetooth permissions in Android 12 and above
+        vectorDrawables.useSupportLibrary = true
+
+        // Specify additional permissions in the AndroidManifest.xml file
+    }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    // Add your dependencies here if needed
+}
