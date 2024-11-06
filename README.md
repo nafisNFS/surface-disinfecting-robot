@@ -22,7 +22,7 @@ The robot is a cost-effective solution for maximizing surface disinfection using
 9. Flowchart | 10. UV light and PIR Motion Sensor Activity
 <div style="display: flex; flex-wrap: wrap;"> <img src="flowchart.jpg" alt="Flowchart" height="250px" style="margin-right: 10px;"/> <img src="uv graph.jpg" alt="UV light and PIR Motion Sensor Activity" height="250px"/> </div>
 11. Mobile App Using Flutter
-<img src="app.png" alt="Seniti Bot" height="450px"/>
+<div style="display: flex; flex-wrap: wrap;"> <img src="saniti.jpg" alt="Splash Screen" height="450px" style="margin-right: 10px;"/> <img src="permission.jpg" alt="Asking for Bluetooth Connectivity" height="450px" style="margin-right: 10px;"/> <img src="list.jpg" alt="Available Devices" height="450px" style="margin-right: 10px;"/> <img src="app.png" alt="Main Screen" height="450px"/> </div>
 
 ## Installation
 
