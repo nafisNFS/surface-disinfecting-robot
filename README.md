@@ -4,7 +4,7 @@
 
 The robot is a cost-effective solution for maximizing surface disinfection using UV light. To prevent harm from UV exposure, it includes sensors that automatically turn off the UV lights when motion is detected. The robot also features AI-based object detection for efficient navigation and surveillance. Additionally, it is equipped with a vacuum cleaner and a wireless charging system.
 
-## Demo
+## Watch Video
 
 [![Watch the video on YouTube](https://img.youtube.com/vi/8w68rRsT_-0/0.jpg)](https://youtu.be/8w68rRsT_-0)
 
