@@ -14,49 +14,33 @@ The robot is a cost-effective solution for maximizing surface disinfection using
 
 ## Screenshots
 
-<div align="center">
-
 ### Key Features
 
-1. Surface Disinfecting and Cleaning Robot | 2. UV Lights And Wireless Charging Receiver Coil
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
-   <img src="1.jpg" alt="Robot" height="250px" style="margin: 10px;"/>
-   <img src="2.jpg" alt="UV Lights And Wireless Charging Receiver Coil" height="250px" style="margin: 10px;"/>
-</div>
+#### 1. Surface Disinfecting and Cleaning Robot | 2. UV Lights And Wireless Charging Receiver Coil
+<img src="images/1.jpg" alt="Robot" height="250px" style="margin: 10px;"/>  
+<img src="images/2.jpg" alt="UV Lights And Wireless Charging Receiver Coil" height="250px" style="margin: 10px;"/>  
 
-3. Efficient Path Planning | 4. Wireless Charging Transmitter Coil
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
-   <img src="3.jpg" alt="Efficient Path Planning" height="250px" style="margin: 10px;"/>
-   <img src="4.jpg" alt="Wireless Charging Transmitter Coil" height="250px" style="margin: 10px;"/>
-</div>
+#### 3. Efficient Path Planning | 4. Wireless Charging Transmitter Coil
+<img src="images/3.jpg" alt="Efficient Path Planning" height="250px" style="margin: 10px;"/>  
+<img src="images/4.jpg" alt="Wireless Charging Transmitter Coil" height="250px" style="margin: 10px;"/>  
 
-5. Surface Disinfection Using UV Lights | 6. AI Based Object Detection (Human)
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
-   <img src="5.jpg" alt="Surface Disinfection Using UV Lights" height="250px" style="margin: 10px;"/>
-   <img src="6.jpg" alt="AI Based Object Detection Human" height="250px" style="margin: 10px;"/>
-</div>
+#### 5. Surface Disinfection Using UV Lights | 6. AI-Based Object Detection (Human)
+<img src="images/5.jpg" alt="Surface Disinfection Using UV Lights" height="250px" style="margin: 10px;"/>  
+<img src="images/6.jpg" alt="AI-Based Object Detection (Human)" height="250px" style="margin: 10px;"/>  
 
-7. AI Based Object Detection (Other Living Beings) | 8. Vacuum Cleaning
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
-   <img src="7.jpg" alt="AI Based Object Detection Other Living beings" height="250px" style="margin: 10px;"/>
-   <img src="vacuum.jpg" alt="Vacuum Cleaning" height="250px" style="margin: 10px;"/>
-</div>
+#### 7. AI-Based Object Detection (Other Living Beings) | 8. Vacuum Cleaning
+<img src="images/7.jpg" alt="AI-Based Object Detection (Other Living Beings)" height="250px" style="margin: 10px;"/>  
+<img src="images/vacuum.jpg" alt="Vacuum Cleaning" height="250px" style="margin: 10px;"/>  
 
-9. Flowchart | 10. UV light and PIR Motion Sensor Activity
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
-   <img src="flowchart.jpg" alt="Flowchart" height="250px" style="margin: 10px;"/>
-   <img src="uv graph.jpg" alt="UV light and PIR Motion Sensor Activity" height="250px" style="margin: 10px;"/>
-</div>
+#### 9. Flowchart | 10. UV Light and PIR Motion Sensor Activity
+<img src="images/flowchart.jpg" alt="Flowchart" height="250px" style="margin: 10px;"/>  
+<img src="images/uv-graph.jpg" alt="UV Light and PIR Motion Sensor Activity" height="250px" style="margin: 10px;"/>  
 
-11. Mobile App Using Flutter
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
-   <img src="saniti.jpg" alt="Splash Screen" height="450px" style="margin: 10px;"/>
-   <img src="permission.jpg" alt="Asking for Bluetooth Connectivity" height="450px" style="margin: 10px;"/>
-   <img src="list.jpg" alt="Available Devices" height="450px" style="margin: 10px;"/>
-   <img src="app.png" alt="Main Screen" height="450px" style="margin: 10px;"/>
-</div>
-
-</div>
+#### 11. Mobile App Using Flutter
+<img src="images/saniti.jpg" alt="Splash Screen" height="450px" style="margin: 10px;"/>  
+<img src="images/permission.jpg" alt="Asking for Bluetooth Connectivity" height="450px" style="margin: 10px;"/>  
+<img src="images/list.jpg" alt="Available Devices" height="450px" style="margin: 10px;"/>  
+<img src="images/app.png" alt="Main Screen" height="450px" style="margin: 10px;"/>  
 
 ## Installation
 
